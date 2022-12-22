@@ -1,5 +1,4 @@
 <h2>Interpolation</h2>
-
 <p> {{nome}} tem {{idade}} anos! </p>
 
 <p> {{nome}} tem mais de 22 anos? </p>
@@ -9,4 +8,23 @@
 <p>Quanto é {{idade}} + 1?</p>
 <p> {{idade + 1}} </p>
 
+<hr>
 
+<h2>Property Binding</h2>
+<button [disabled]="checkedDisabled">Button</button> 
+
+<img [src]="imgSrc" alt="imgTitle" [title]="imgTitle">
+
+<br>
+<br>
+
+<hr>
+
+<h2>Event Binding</h2>
+
+<button (click)="alertaInfo">Evento</button>
+
+<br>
+<br>
+
+<hr>
